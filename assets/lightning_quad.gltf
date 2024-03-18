@@ -1,1 +1,69 @@
-{"asset":{"version":"2.0","generator":"THREE.GLTFExporter"},"scenes":[{"nodes":[0],"extras":{"src":"https://localhost:8642/projects/ee-fx-basic/assets/lightning_quad.gltf","sceneID":"531bbd86-ea4c-4a26-b2ae-20f951193d76-https://localhost:8642/projects/ee-fx-basic/assets/lightning_quad.gltf"}}],"scene":0,"nodes":[{"matrix":[-0.9727758782093967,5.134781488891351e-16,-0.23174790349415897,0,-0.23174790349415886,8.881784197001252e-16,0.9727758782093963,0,7.355227538141664e-16,1.0000000000000002,-8.881784197001254e-16,0,0,0,-36.1,1],"name":"lightning","extensions":{"EE_particle-system":{"systemParameters":{"version":"1.0","autoDestroy":false,"looping":true,"prewarm":false,"material":"","duration":1,"shape":{"type":"point"},"startLife":{"type":"ConstantValue","value":1.25},"startSpeed":{"type":"ConstantValue","value":0},"startRotation":{"type":"ConstantValue","value":0},"startSize":{"type":"ConstantValue","value":10},"startColor":{"type":"ConstantColor","color":{"r":1,"g":1,"b":1,"a":1}},"emissionOverTime":{"type":"ConstantValue","value":0.8},"emissionOverDistance":{"type":"ConstantValue","value":0},"emissionBursts":[],"onlyUsedByOther":false,"rendererEmitterSettings":{"startLength":{"type":"ConstantValue","value":1},"followLocalOrigin":true},"renderMode":2,"texture":"https://localhost:8642/projects/ee-fx-basic/assets/texture/lightning.png","instancingGeometry":"https://localhost:8642/projects/ee-fx-basic/assets/geometry/quad.glb","startTileIndex":{"type":"ConstantValue","value":0},"uTileCount":4,"vTileCount":4,"blending":2,"behaviors":[],"worldSpace":true,"transparent":true},"behaviorParameters":[{"type":"FrameOverLife","frame":{"type":"PiecewiseBezier","functions":[{"function":{"p0":0,"p1":0,"p2":16,"p3":16},"start":0}]}}]},"EE_visible":true}}],"extensionsUsed":["EE_particle-system","EE_visible","EE_ecs"]}
+{
+  "asset": { "version": "2.0", "generator": "THREE.GLTFExporter" },
+  "scenes": [
+    {
+      "nodes": [0],
+      "extras": {
+        "src": "__$project$__/ee-fx-basic/assets/lightning_quad.gltf"
+       }
+    }
+  ],
+  "scene": 0,
+  "nodes": [
+    {
+      "matrix": [
+        -0.9727758782093967, 5.134781488891351e-16, -0.23174790349415897, 0, -0.23174790349415886,
+        8.881784197001252e-16, 0.9727758782093963, 0, 7.355227538141664e-16, 1.0000000000000002, -8.881784197001254e-16,
+        0, 0, 0, -36.1, 1
+      ],
+      "name": "lightning",
+      "extensions": {
+        "EE_particle_system": {
+          "systemParameters": {
+            "version": "1.0",
+            "autoDestroy": false,
+            "looping": true,
+            "prewarm": false,
+            "material": "",
+            "duration": 1,
+            "shape": { "type": "point" },
+            "startLife": { "type": "ConstantValue", "value": 1.25 },
+            "startSpeed": { "type": "ConstantValue", "value": 0 },
+            "startRotation": { "type": "ConstantValue", "value": 0 },
+            "startSize": { "type": "ConstantValue", "value": 10 },
+            "startColor": { "type": "ConstantColor", "color": { "r": 1, "g": 1, "b": 1, "a": 1 } },
+            "emissionOverTime": { "type": "ConstantValue", "value": 0.8 },
+            "emissionOverDistance": { "type": "ConstantValue", "value": 0 },
+            "emissionBursts": [],
+            "onlyUsedByOther": false,
+            "rendererEmitterSettings": {
+              "startLength": { "type": "ConstantValue", "value": 1 },
+              "followLocalOrigin": true
+            },
+            "renderMode": 2,
+            "texture": "__$project$__/ee-fx-basic/assets/texture/lightning.png",
+            "instancingGeometry": "__$project$__/ee-fx-basic/assets/geometry/quad.glb",
+            "startTileIndex": { "type": "ConstantValue", "value": 0 },
+            "uTileCount": 4,
+            "vTileCount": 4,
+            "blending": 2,
+            "behaviors": [],
+            "worldSpace": true,
+            "transparent": true
+          },
+          "behaviorParameters": [
+            {
+              "type": "FrameOverLife",
+              "frame": {
+                "type": "PiecewiseBezier",
+                "functions": [{ "function": { "p0": 0, "p1": 0, "p2": 16, "p3": 16 }, "start": 0 }]
+              }
+            }
+          ]
+        },
+        "EE_visible": true
+      }
+    }
+  ],
+  "extensionsUsed": ["EE_particle_system", "EE_visible", "EE_ecs"]
+}

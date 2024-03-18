@@ -1,1 +1,95 @@
-{"asset":{"version":"2.0","generator":"THREE.GLTFExporter"},"scenes":[{"name":"gltf","nodes":[0],"extras":{"src":"https://localhost:8642/projects/ee-fx-basic/assets/portal-mesh.gltf","sceneID":"ac17c559-e61a-476f-8711-19d2660c488e-https://localhost:8642/projects/ee-fx-basic/assets/portal-mesh.gltf"}}],"scene":0,"nodes":[{"matrix":[0.18294140822765947,-0.8534104654414,-0.4880809549969901,0,0.9384757098513289,0.299505803777084,-0.17192910027940939,0,0.29290917222703217,-0.4265991689852851,0.8556970058650076,0,-4.8672755228687825e-17,-2.56622326539117e-17,7.341704480863376e-18,1],"name":"portal","extensions":{"EE_visible":true,"EE_particle-system":{"systemParameters":{"version":"1.0","autoDestroy":false,"looping":true,"prewarm":true,"material":"","duration":5,"shape":{"type":"point"},"startLife":{"type":"IntervalValue","a":3.4000000000000004,"b":8.3},"startSpeed":{"type":"ConstantValue","value":0},"startRotation":{"type":"IntervalValue","a":0,"b":6.3},"startSize":{"type":"ConstantValue","value":1},"startColor":{"type":"ConstantColor","color":{"r":1,"g":1,"b":1,"a":1}},"emissionOverTime":{"type":"ConstantValue","value":7.6},"emissionOverDistance":{"type":"ConstantValue","value":0},"emissionBursts":[],"onlyUsedByOther":false,"rendererEmitterSettings":{"startLength":{"type":"ConstantValue","value":1},"followLocalOrigin":true},"renderMode":2,"texture":"https://localhost:8642/projects/ee-fx-basic/assets/texture/spark_rotate.png","instancingGeometry":"https://localhost:8642/projects/ee-fx-basic/assets/geometry/half-sphere.glb","startTileIndex":{"type":"ConstantValue","value":0},"uTileCount":1,"vTileCount":1,"blending":2,"behaviors":[],"worldSpace":true,"transparent":true},"behaviorParameters":[{"type":"ColorOverLife","color":{"type":"Gradient","functions":[{"function":{"type":"ColorRange","a":{"r":1,"g":0.9386857284565036,"b":0,"a":0},"b":{"r":0.8962693533719567,"g":1,"b":0,"a":1}},"start":0},{"start":0.30000000000000004,"function":{"type":"ColorRange","a":{"r":0.85499260812105,"g":0.013702083043526807,"b":0.013702083043526807,"a":1},"b":{"r":0.76052450467022,"g":0.25818285291079235,"b":0.0033465357620980074,"a":1}}},{"start":0.7,"function":{"type":"ColorRange","a":{"r":1,"g":0.23074004851362045,"b":0,"a":1},"b":{"r":0.913098651791473,"g":0.0018211619011764706,"b":0.0018211619011764706,"a":0}}}]}}]}}}],"extensionsUsed":["EE_visible","EE_particle-system","EE_ecs"]}
+{
+  "asset": { "version": "2.0", "generator": "THREE.GLTFExporter" },
+  "scenes": [
+    {
+      "name": "gltf",
+      "nodes": [0],
+      "extras": {
+        "src": "__$project$__/ee-fx-basic/assets/portal-mesh.gltf"
+        }
+    }
+  ],
+  "scene": 0,
+  "nodes": [
+    {
+      "matrix": [
+        0.18294140822765947, -0.8534104654414, -0.4880809549969901, 0, 0.9384757098513289, 0.299505803777084,
+        -0.17192910027940939, 0, 0.29290917222703217, -0.4265991689852851, 0.8556970058650076, 0,
+        -4.8672755228687825e-17, -2.56622326539117e-17, 7.341704480863376e-18, 1
+      ],
+      "name": "portal",
+      "extensions": {
+        "EE_visible": true,
+        "EE_particle_system": {
+          "systemParameters": {
+            "version": "1.0",
+            "autoDestroy": false,
+            "looping": true,
+            "prewarm": true,
+            "material": "",
+            "duration": 5,
+            "shape": { "type": "point" },
+            "startLife": { "type": "IntervalValue", "a": 3.4000000000000004, "b": 8.3 },
+            "startSpeed": { "type": "ConstantValue", "value": 0 },
+            "startRotation": { "type": "IntervalValue", "a": 0, "b": 6.3 },
+            "startSize": { "type": "ConstantValue", "value": 1 },
+            "startColor": { "type": "ConstantColor", "color": { "r": 1, "g": 1, "b": 1, "a": 1 } },
+            "emissionOverTime": { "type": "ConstantValue", "value": 7.6 },
+            "emissionOverDistance": { "type": "ConstantValue", "value": 0 },
+            "emissionBursts": [],
+            "onlyUsedByOther": false,
+            "rendererEmitterSettings": {
+              "startLength": { "type": "ConstantValue", "value": 1 },
+              "followLocalOrigin": true
+            },
+            "renderMode": 2,
+            "texture": "__$project$__/ee-fx-basic/assets/texture/spark_rotate.png",
+            "instancingGeometry": "__$project$__/ee-fx-basic/assets/geometry/half-sphere.glb",
+            "startTileIndex": { "type": "ConstantValue", "value": 0 },
+            "uTileCount": 1,
+            "vTileCount": 1,
+            "blending": 2,
+            "behaviors": [],
+            "worldSpace": true,
+            "transparent": true
+          },
+          "behaviorParameters": [
+            {
+              "type": "ColorOverLife",
+              "color": {
+                "type": "Gradient",
+                "functions": [
+                  {
+                    "function": {
+                      "type": "ColorRange",
+                      "a": { "r": 1, "g": 0.9386857284565036, "b": 0, "a": 0 },
+                      "b": { "r": 0.8962693533719567, "g": 1, "b": 0, "a": 1 }
+                    },
+                    "start": 0
+                  },
+                  {
+                    "start": 0.30000000000000004,
+                    "function": {
+                      "type": "ColorRange",
+                      "a": { "r": 0.85499260812105, "g": 0.013702083043526807, "b": 0.013702083043526807, "a": 1 },
+                      "b": { "r": 0.76052450467022, "g": 0.25818285291079235, "b": 0.0033465357620980074, "a": 1 }
+                    }
+                  },
+                  {
+                    "start": 0.7,
+                    "function": {
+                      "type": "ColorRange",
+                      "a": { "r": 1, "g": 0.23074004851362045, "b": 0, "a": 1 },
+                      "b": { "r": 0.913098651791473, "g": 0.0018211619011764706, "b": 0.0018211619011764706, "a": 0 }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "extensionsUsed": ["EE_visible", "EE_particle_system", "EE_ecs"]
+}

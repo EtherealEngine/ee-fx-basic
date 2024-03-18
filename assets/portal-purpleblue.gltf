@@ -1,1 +1,99 @@
-{"asset":{"version":"2.0","generator":"THREE.GLTFExporter"},"scenes":[{"nodes":[0],"extras":{"src":"https://localhost:8642/projects/ee-fx-basic/assets/portal.gltf","sceneID":"f2926325-2d5d-48eb-9167-e9266c53a37b-https://localhost:8642/projects/ee-fx-basic/assets/portal.gltf"}}],"scene":0,"nodes":[{"name":"portal","extensions":{"EE_particle-system":{"systemParameters":{"version":"1.0","autoDestroy":false,"looping":true,"prewarm":true,"material":"dud","duration":5,"shape":{"type":"donut","radius":2.5,"arc":30,"thickness":0.010000000000000009,"angle":15},"startLife":{"type":"IntervalValue","a":10,"b":15},"startSpeed":{"type":"ConstantValue","value":0},"startRotation":{"type":"IntervalValue","a":0,"b":300},"startSize":{"type":"IntervalValue","a":1,"b":2},"startColor":{"type":"ConstantColor","color":{"r":1,"g":1,"b":1,"a":1}},"emissionOverTime":{"type":"ConstantValue","value":12.2},"emissionOverDistance":{"type":"ConstantValue","value":0},"emissionBursts":[],"onlyUsedByOther":false,"rendererEmitterSettings":{"startLength":{"type":"ConstantValue","value":1},"followLocalOrigin":true},"renderMode":0,"texture":"https://localhost:8642/projects/ee-fx-basic/assets/texture/spark.ktx2","instancingGeometry":"","startTileIndex":{"type":"ConstantValue","value":0},"uTileCount":1,"vTileCount":1,"blending":2,"behaviors":[],"worldSpace":true,"transparent":true},"behaviorParameters":[{"type":"ApplyForce","direction":[0,0,0.29999999999999993],"magnitude":{"type":"ConstantValue","value":0.19999999999999993}},{"type":"ColorOverLife","color":{"type":"Gradient","functions":[{"function":{"type":"ColorRange","a":{"r":0.5332764040016892,"g":0.023153366173251366,"b":1,"a":0},"b":{"r":0.23074004851362045,"g":0.11443537381770343,"b":0.8713671191959567,"a":1}},"start":0},{"start":0.5,"function":{"type":"ColorRange","a":{"r":0.06662593863608139,"g":0,"b":1,"a":1},"b":{"r":0.0027317428517647058,"g":0,"b":0.3915724777393922,"a":1}}},{"start":0.75,"function":{"type":"ColorRange","a":{"r":0,"g":0.9215818562755338,"b":1,"a":1},"b":{"r":0.02955683443236377,"g":0.00030352698352941176,"b":0.9734452903978066,"a":0}}}]}},{"type":"OrbitOverLife","orbitSpeed":{"type":"ConstantValue","value":2.5999999999999996},"axis":[0,0,0.09999999999999981]}]},"EE_visible":true}}],"extensionsUsed":["EE_particle-system","EE_visible","EE_ecs"]}
+{
+  "asset": { "version": "2.0", "generator": "THREE.GLTFExporter" },
+  "scenes": [
+    {
+      "nodes": [0],
+      "extras": {
+        "src": "__$project$__/ee-fx-basic/assets/portal.gltf"
+         }
+    }
+  ],
+  "scene": 0,
+  "nodes": [
+    {
+      "name": "portal",
+      "extensions": {
+        "EE_particle_system": {
+          "systemParameters": {
+            "version": "1.0",
+            "autoDestroy": false,
+            "looping": true,
+            "prewarm": true,
+            "material": "dud",
+            "duration": 5,
+            "shape": { "type": "donut", "radius": 2.5, "arc": 30, "thickness": 0.010000000000000009, "angle": 15 },
+            "startLife": { "type": "IntervalValue", "a": 10, "b": 15 },
+            "startSpeed": { "type": "ConstantValue", "value": 0 },
+            "startRotation": { "type": "IntervalValue", "a": 0, "b": 300 },
+            "startSize": { "type": "IntervalValue", "a": 1, "b": 2 },
+            "startColor": { "type": "ConstantColor", "color": { "r": 1, "g": 1, "b": 1, "a": 1 } },
+            "emissionOverTime": { "type": "ConstantValue", "value": 12.2 },
+            "emissionOverDistance": { "type": "ConstantValue", "value": 0 },
+            "emissionBursts": [],
+            "onlyUsedByOther": false,
+            "rendererEmitterSettings": {
+              "startLength": { "type": "ConstantValue", "value": 1 },
+              "followLocalOrigin": true
+            },
+            "renderMode": 0,
+            "texture": "__$project$__/ee-fx-basic/assets/texture/spark.ktx2",
+            "instancingGeometry": "",
+            "startTileIndex": { "type": "ConstantValue", "value": 0 },
+            "uTileCount": 1,
+            "vTileCount": 1,
+            "blending": 2,
+            "behaviors": [],
+            "worldSpace": true,
+            "transparent": true
+          },
+          "behaviorParameters": [
+            {
+              "type": "ApplyForce",
+              "direction": [0, 0, 0.29999999999999993],
+              "magnitude": { "type": "ConstantValue", "value": 0.19999999999999993 }
+            },
+            {
+              "type": "ColorOverLife",
+              "color": {
+                "type": "Gradient",
+                "functions": [
+                  {
+                    "function": {
+                      "type": "ColorRange",
+                      "a": { "r": 0.5332764040016892, "g": 0.023153366173251366, "b": 1, "a": 0 },
+                      "b": { "r": 0.23074004851362045, "g": 0.11443537381770343, "b": 0.8713671191959567, "a": 1 }
+                    },
+                    "start": 0
+                  },
+                  {
+                    "start": 0.5,
+                    "function": {
+                      "type": "ColorRange",
+                      "a": { "r": 0.06662593863608139, "g": 0, "b": 1, "a": 1 },
+                      "b": { "r": 0.0027317428517647058, "g": 0, "b": 0.3915724777393922, "a": 1 }
+                    }
+                  },
+                  {
+                    "start": 0.75,
+                    "function": {
+                      "type": "ColorRange",
+                      "a": { "r": 0, "g": 0.9215818562755338, "b": 1, "a": 1 },
+                      "b": { "r": 0.02955683443236377, "g": 0.00030352698352941176, "b": 0.9734452903978066, "a": 0 }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "OrbitOverLife",
+              "orbitSpeed": { "type": "ConstantValue", "value": 2.5999999999999996 },
+              "axis": [0, 0, 0.09999999999999981]
+            }
+          ]
+        },
+        "EE_visible": true
+      }
+    }
+  ],
+  "extensionsUsed": ["EE_particle_system", "EE_visible", "EE_ecs"]
+}
